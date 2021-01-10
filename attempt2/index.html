@@ -2,39 +2,37 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Someone Sve Me</title>
+    <title>Playlist</title>
     <script src="js/app.js"></script>
     <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
   </head>
   <body>
-    
-    <body>
-        <form id="new-item-form">
-          <div id="form-wrapper">
-            <div class="form-item">
-              <label for="title" class="primary">Title</label>
-              <input type="text" id="title" required/>
-            </div>
-    
-            <div class="form-item">
-              <label for="artist" class="primary">Artist</label>
-              <input type="text" id="artist" required/>
-            </div>
-    
-            <div class="form-item">
-              <label for="genre" class="primary">Genre</label>
-              <select id="genre">
-                <option value="" disabled selected></option>
-                <option value="Title">Title</option>
-                <option value="Artist">Artist</option>
-                <option value="Genre">Genre</option>
-              </select>
-            </div>
-          </div>
-          <input type="submit" value="save"/>
-        </form>
-    
-        <h1>Playlist List</h1>
-        <ul id="play-list"></ul>
-      </body>
-    </html>
+    <form id="new-item-form">
+      <div id="form-wrapper">
+        <div class="form-item">
+          <label for="title" class="primary">Title</label>
+          <input type="text" id="title" required/>
+        </div>
+
+        <div class="form-item">
+          <label for="artist" class="primary">Artist</label>
+          <input type="text" id="artist" required/>
+        </div>
+
+        <div class="form-item">
+          <label for="genre" class="primary">Genre</label>
+          <select id="genre">
+            <option value="" disabled selected></option>
+            <option value="HipHop"></option>
+            <option value="Rock">Rock</option>
+            <option value="Blues">Blues</option>
+          </select>
+        </div>
+      </div>
+      <input type="submit" value="save"/>
+    </form>
+
+    <h1>Play List</h1>
+    <ul id="play-list"></ul>
+  </body>
+</html>
