@@ -5,9 +5,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
   <script src="js/app.js"></script>
-    <title>Document</title>
+    <title>Christmas Shopping List</title>
 </head>
 <body>
+    <div class='center-items'>
+        <h1>Santa's list</h1>
+
+        <form>
+            <div class="form-item">
+              <label for="name">Name</label>
+              <input type="text" id="name" />
+            </div>
+      
+            <div class="form-item">
+              <label for="gift-requested">Gift Requested</label>
+              <input type="text" id="gift" />
+            </div>
+      
+            <div class="form-item">
+              <legend>Naught or Nice </legend>
+              <fieldset>
+                <label for="nice">Nice</label>
+                <input type="radio" name="Naughty-or-nice" id="nice" value="Nice"/>
+                <label for="naughty">Naughty</label>
+                <input type="radio" name="Naughty-or-nice" id="naughty" value="Naughty"/>
+                
+              </fieldset>
+            </div>
+      
+            <div class="form-item">
+              <input type="submit" value="Add to List" />
+            </div>
+          </form>
+      
+          <ul id="list">
+          </ul>
+
     
 </body>
 </html>
