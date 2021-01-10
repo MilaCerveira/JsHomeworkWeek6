@@ -8,21 +8,21 @@
     <title>Christmas Shopping List</title>
 </head>
 <body>
+    <form id="mario">
     <div class='center-items'>
         <h1>Santa's list</h1>
-       <img src= 'https://media3.giphy.com/media/1nbvyZs9xhQBOt8bHs/source.gif' alt='dancing santa' style="width:500px;height:600px;">
-        <form>
+       <img src= 'https://media3.giphy.com/media/1nbvyZs9xhQBOt8bHs/source.gif' alt='dancing santa' style="width:500px;height:600px;"
             <div class="form-item">
               <label for="name">Name</label>
               <input type="text" id="name" />
             </div>
       
             <div class="form-item">
-              <label for="gift-requested">Gift Requested</label>
+              <label for="giftrequested">Gift Requested</label>
               <input type="text" id="gift" />
             </div>
             
-            <! -- collections of radio buttons describing a set of related options
+        <!-- collections of radio buttons describing a set of related options
             Radio Buttons one can only be checked at a time -->
             
             <div class="form-item">
@@ -36,15 +36,16 @@
               </fieldset>
             </div>
       
-            <div class="form-item">
-              <input class="btn draw-border" type="submit" value="Add to List" />
+            <div class="form-item"> <!--get from here -->
+              <input type="submit" value="save" /> 
             </div>
           </form>
           <button class="btn draw-border" id="delete-all">Delete All</button>
 
       
-          <ul id="list">
-          </ul>
+          <ul id="list"> <!--it's going here -->
+          <li></li>
+        </ul>
 
     
 </body>
