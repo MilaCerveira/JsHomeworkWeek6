@@ -2,3 +2,7 @@ background{
     background-color: black;
     color: white;
 }
+body {
+    background-color: aliceblue;
+    font-family: 'Yusei Magic', sans-serif;
+}
